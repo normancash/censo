@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 
 public class EntityManagerAdmin {
     private static EntityManager instance;
-    private static final String UNIDAD = "DEMOJPA";
+    private static final String UNIDAD = "default";
     public static EntityManager getInstance() {
             EntityManagerFactory emf = Persistence
                     .createEntityManagerFactory(UNIDAD);
