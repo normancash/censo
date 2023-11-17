@@ -23,7 +23,7 @@
     -->
     <controller name="SignIn">
         <action name="signIn"
-                class="com.openxava.naviox.actions.SignInAction"/>
+                class="org.example.censo.actions.ConexionAction"/>
     </controller>
 
     
