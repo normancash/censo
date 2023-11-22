@@ -15,6 +15,7 @@ public class EntityManagerAdmin {
             if (em == null) {
                 em = XPersistence.createManager();
             }
+
             return em;
     }
 
